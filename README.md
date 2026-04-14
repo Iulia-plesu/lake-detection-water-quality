@@ -44,21 +44,25 @@ git lfs pull
 
 ## 3. Environment Setup
 
+Recommended Python version: 3.12 (64-bit).
+
+Python 3.13 is not recommended for this pinned dependency set.
+
 ### Windows (PowerShell)
 
 ```powershell
-python -m venv venv
+py -3.12 -m venv venv
 .\venv\Scripts\Activate.ps1
-pip install --upgrade pip
+python -m pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 ```
 
 ### Linux/macOS
 
 ```bash
-python -m venv venv
+python3.12 -m venv venv
 source venv/bin/activate
-pip install --upgrade pip
+python -m pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 ```
 
