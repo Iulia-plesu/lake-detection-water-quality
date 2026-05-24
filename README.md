@@ -1,4 +1,4 @@
-# CopernicusDataFinder
+# Lake Detection and Water Quality Estimation
 
 Companion code package for the manuscript:
 
